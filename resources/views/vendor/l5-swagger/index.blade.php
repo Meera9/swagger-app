@@ -43,8 +43,12 @@
             validatorUrl: {!! isset($validatorUrl) ? '"' . $validatorUrl . '"' : 'null' !!},
             oauth2RedirectUrl: "{{ route('l5-swagger.'.$documentation.'.oauth2_callback', [], $useAbsolutePath) }}",
 
-            requestInterceptor: function(request) {
+              requestInterceptor: function(request) {
                 request.headers['X-CSRF-TOKEN'] = '{{ csrf_token() }}';
+                request.headers['Content-Lang'] = 'en';
+                request.headers['Content-Timezone'] = 'Asia/Calcutta';
+                request.headers['Content-Timezone'] = 'Asia/Calcutta';
+                request.headers['X-Requested-With'] = 'XMLHttpRequest';
                 return request;
             },
 
