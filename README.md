@@ -52,19 +52,19 @@ Follow these steps to set up the Laravel application with L5-Swagger:
    ```bash
    php artisan serve
 
-### Multiple Route Setup
+### <a href="https://github.com/Meera9/swagger-app/blob/main/config/l5-swagger.php">Multiple Route Setup</a>
 This example includes multiple routes to demonstrate the flexibility of L5-Swagger in documenting your API. You can define your routes in the routes/api.php file. The Swagger documentation will automatically update to include these routes.
 
-### Multiple Documentation
+### <a href="https://github.com/Meera9/swagger-app/blob/main/config/l5-swagger.php">Multiple Documentation</a>
 This example includes multiple documentation to showcase different aspects of your API. You can define separate documentation for various API versions or sections.
 
-### JSON Response Examples
+### <a href="https://github.com/Meera9/swagger-app/blob/main/app/Http/Controllers/Admin/ProductController.php">JSON Response Examples</a>
 To provide clarity, this example includes JSON response examples for each endpoint, helping users understand the expected data format.
 
-### HTTP Methods
+### <a href="https://github.com/Meera9/swagger-app/blob/main/app/Http/Controllers/Admin/ProductController.php">HTTP Methods</a>
 All major HTTP methods, including POST, PATCH, DELETE, and GET, are demonstrated using L5-Swagger.
 
-### Passport Security
+### <a href="https://github.com/Meera9/swagger-app/blob/main/app/Http/Controllers/Admin/ProductController.php">Passport Security</a>
 Passport is integrated to secure your API endpoints. Users will find examples of how to use Passport for authentication and access control.
 
 ### <a href="https://github.com/Meera9/swagger-app/commit/f6e7fd820deb5d3cdeb52916b30e76a8884a2199">Custom Headers in Swagger UI</a>
