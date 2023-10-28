@@ -67,7 +67,7 @@ All major HTTP methods, including POST, PATCH, DELETE, and GET, are demonstrated
 ### Passport Security
 Passport is integrated to secure your API endpoints. Users will find examples of how to use Passport for authentication and access control.
 
-### Custom Headers in Swagger UI
+### <a href="https://github.com/Meera9/swagger-app/commit/f6e7fd820deb5d3cdeb52916b30e76a8884a2199">Custom Headers in Swagger UI</a>
 Custom headers are integrated into the main Swagger UI index blade file. This enhances the user experience by showcasing how to include headers directly in the interactive API documentation.
 
 ### License
