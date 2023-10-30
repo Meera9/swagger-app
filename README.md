@@ -202,24 +202,23 @@ Custom headers are integrated into the main Swagger UI index blade file. This en
 how to include headers directly in the interactive API documentation. Path is
 resources/views/vendor/l5-swagger/index.blade.php
 
-   ```bash
-      requestInterceptor: function(request) {
+    requestInterceptor: function(request) {
             request.headers['X-CSRF-TOKEN'] = '{{ csrf_token() }}';
             request.headers['Content-Lang'] = 'en';
             request.headers['Content-Timezone'] = 'Asia/Calcutta';
             request.headers['Content-Timezone'] = 'Asia/Calcutta';
             request.headers['X-Requested-With'] = 'XMLHttpRequest';
             return request;
-      },
+    },
 
 
 ### License
 This project is open-source and available under the MIT License. You are free to use, modify, and distribute it as needed.
 
 ### Contributing
-If you have suggestions, improvements, or find issues, please feel free to create a GitHub issue or submit a pull request.
+If you have suggestions, improvements, or find issues, please feel free to create a GitHub issue or submit a <a href="https://github.com/Meera9/swagger-app.git">pull request</a>.
 
 ### Author
-Mirali Thanki <br/>
-https://github.com/Meera9 <br/>
-meerathanki09@gmail.com
+<a href="https://github.com/Meera9">Mirali Thanki</a> <br/>
+<a href="mailto:meerathanki09@gmail.com">Contact Me</a>
+
